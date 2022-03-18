@@ -5,8 +5,9 @@
 using namespace std;
 
 /* Quiz #4 #5
-   Estudiante: Kevin Josué Cubillo Chacón
-   Carné: 2021123138
+   Estudiante: Kevin Josue Cubillo Chacon
+   Carne: 2021123138
+   Profesor: Rodrigo Nunez
 
 */
 
@@ -45,8 +46,8 @@ void radixSort(int *arr, int n, int max) {
          O(nk)
 
     Loop invariant:
-    arr[1..i-1] Después de la i-ésima iteración del for,
-    los elementos estan ordenados por sus últimos i dígitos.
+    arr[1..i-1] Despues de la i-esima iteracion del for,
+    los elementos estan ordenados por sus ultimos i digitos.
 
                                                     */
 int costo(int N, int M, int x[], int y[]) {
