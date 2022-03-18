@@ -51,7 +51,8 @@ void radixSort(int *arr, int n, int max) {
 
                                                     */
 int costo(int N, int M, int x[], int y[]) {
-    int suma1, suma2 = 0; //2
+    int suma1 = 0; //1
+    int suma2 = 0; //1
 
         //1
     for(int i = 0; i<M-1; i++){ //4
@@ -72,7 +73,7 @@ int costo(int N, int M, int x[], int y[]) {
 
 /*  Calculo del f(n) y O(n) del algoritmo de costo minimo:
 
-    2+1+(4+3)(M-1)+1+(4+3)(N-1)+6+1+1
+    1+1+1+(4+3)(M-1)+1+(4+3)(N-1)+6+1+1
         3+(7)(M-1)+1+(7)(N-1)+8
             3+7M-7+1+7N-7+8
                7M+7N-2
